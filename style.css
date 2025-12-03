@@ -1,0 +1,145 @@
+/* Подключение шрифта STEM TEXT — требуется файл или CDN */
+@import url(https://db.onlinewebfonts.com/c/60bb18a25a964a9cc419b599a50267ad?family=Stem+Text+W03+Regular); 
+
+
+body {
+margin: 0;
+padding: 0;
+font-family: "Stem Text W03 Regular"; 
+background: #fafafa;
+color: #222;
+}
+
+
+.container {
+max-width: 1390px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+
+/* Header */
+.site-header {
+background: #fff;
+border-bottom: 1px solid #e2e2e2;
+background-image: url('./bg_hd.jpg');
+margin-bottom: 15px;
+}
+
+
+.header-inner {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 0;
+}
+
+.user-avatar img {
+width: 42px;
+height: 42px;
+border-radius: 50%;
+object-fit: cover;
+cursor: pointer;
+transition: 0.2s;
+}
+
+.right_men {
+    display: flex;
+    gap:50px;
+align-items: center;
+}
+
+.user-avatar img:hover {
+filter: grayscale(40%);
+}
+
+.top-nav a {
+margin-left: 30px;
+text-decoration: none;
+color: #222;
+font-weight: 500;
+transition: 0.2s;
+font-size: 21px;
+}
+
+
+.top-nav a:hover {
+opacity: 0.7;
+}
+
+/* Главная секция */
+.main-hero {
+max-width: 1390px;
+    border: 5px dotted orange;
+    border-radius: 20px;
+margin: 0 auto;
+    height: 800px;                     /* можешь менять */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: Black;                       /* текст белый */
+    text-align: center;
+    position: relative;
+}
+
+.hero-inner {
+}
+
+.info-block {
+max-width: 1390px;
+    border: 5px dotted red;
+    border-radius: 20px;
+margin: 0 auto;
+    height: 400px;                     /* можешь менять */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: Black;                       /* текст белый */
+    text-align: center;
+    position: relative;
+}
+
+.main-hero h1 {
+    font-size: 64px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.hero-sub {
+    font-size: 28px;
+    margin: 12px 0 32px;
+}
+
+.hero-btn {
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 14px 34px;
+    font-size: 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.hero-btn:hover {
+    opacity: 0.85;
+}
+
+.hero-desc {
+    margin-top: 18px;
+    font-size: 20px;
+}
+
+
+/* Footer */
+.site-footer {
+background: #f1f1f1;
+padding: 25px 0;
+margin-top: 40px;
+text-align: center;
+font-size: 14px;
+}
